@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa con Filtros</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="mapa.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="contenido">
+            <div class="filtros">
+                
+                <div>
+                    <label for="tipus">Tipus:</label>
+                    <select id="tipus">
+                        <option value="">Tots</option>
+                        <option value="Espai">Espai</option>
+                        <option value="Atraccio">Atraccio</option>
+                        <option value="Museu">Museu</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="ordenacio">Ordenació:</label>
+                    <select id="ordenacio">
+                        <option value="asc">Ascendent</option>
+                        <option value="desc">Descendent</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <label for="filtro-texto">Filtrar per nom:</label>
+                <input type="text" id="filtro-texto" size="54px" placeholder="Introdueix un nom...">
+            </div>
+            <div class="results">No hi ha informació per mostrar</div>
+            <div id="numeroTotal">Numero total: 0</div>
+            <button class="netejarButon">Netejar tot</button>
+            <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+                <p>Arrastra i deixa anar un fitxer CSV</p>
+                <input type="file" id="file-input" accept=".csv" /> 
+                <div id="info"></div> 
+                <div id="message"></div>
+               
+                <pre id="file-content"></pre>
+            </div>
+        </div>
+        <div id="map"></div> <!-- Mapa a la dreta -->
+    </div>
+    
+
+    <div id="foto"></div>
+    <script src="PuntInteres.js"></script>
+    <script src="Atraccio.js"></script>
+    <script src="Museu.js"></script>
+    <script src="Mapa.js"></script>
+    <script src="fichero.js"></script>
+
+
+</body>
+</html>
+ <!-- fuente : https://developer.mozilla.org/es/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop -->

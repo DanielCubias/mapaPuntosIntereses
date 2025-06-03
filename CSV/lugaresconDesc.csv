@@ -1,0 +1,21 @@
+tipus,id,pais,ciutat,nom,direccio,latitud,longitud,horari,preu,moneda,descripcio
+Espai,1,ES,Barcelona,Park Güell,Carrer d'Olot,41.4145,2.1527,10:00-20:00,15,EUR,
+Espai,2,FR,Paris,Torre Eiffel,Champ de Mars,48.8584,2.2945,,0,EUR,
+Atraccio,3,US,New York,Statue of Liberty,Liberty Island,40.6892,-74.0445,09:00-17:00,25.5,USD,
+Atraccio,4,IT,Rome,Colosseum,Piazza del Colosseo,41.8902,12.4923,08:30-19:15,16,EUR,
+Museu,5,ES,Madrid,Museo del Prado,Calle Ruiz de Alarcón 23,40.4139,-3.6921,10:00-20:00,15,EUR,"Uno de los museos más importantes del mundo, con una vasta colección de arte europeo."
+Museu,6,GB,London,British Museum,Great Russell St,51.5194,-0.1269,10:00-17:30,0,GBP,Museo con una de las colecciones más grandes de artefactos históricos del mundo.
+Espai,7,JP,Kyoto,Fushimi Inari Shrine,Kyoto Prefecture,34.9687,135.7828,,0,JPY,
+Atraccio,8,AU,Sydney,Sydney Opera House,Bennelong Point,33.8568,151.2153,09:00-17:00,40,AUD,
+Museu,9,DE,Berlin,Pergamon Museum,Am Kupfergraben 5,52.5162,13.3777,10:00-18:00,12,EUR,Famoso por su colección de antigüedades y la Puerta de Ishtar de Babilonia.
+Museu,10,ES,Barcelona,Museu Picasso,Carrer Montcada 15-23,41.385,-2.180,10:00-20:00,12.0,EUR,museo dedicado a la obra de Pablo Picasso
+Museu,11,ES,Barcelona,Museu Nacional d'Art de Catalunya,Parc de Montjuïc,41.368,-2.158,10:00-18:00,12.0,EUR,colección de arte catalán desde el románico hasta el siglo XX
+Museu,12,ES,Barcelona,Cosmocaixa,Carrer d'Isaac Newton 26,41.410,-2.142,10:00-20:00,5.0,EUR,museo de ciencia interactivo para todas las edades
+Museu,13,ES,Barcelona,Fundació Joan Miró,Parc de Montjuïc,41.369,-2.158,10:00-18:00,13.0,EUR,museo dedicado al arte moderno y contemporáneo de Joan Miró
+Museu,14,ES,Barcelona,Museu d'Història de Barcelona,Plaza del Rei,41.383,-2.182,10:00-19:00,7.0,EUR,museo que explora la historia de la ciudad desde sus orígenes romanos
+Espai,2,ES,Barcelona,Sagrada Família,Carrer de Mallorca,41.4036,2.1744,09:00-20:00,26,EUR,obra maestra inacabada de Gaudí
+Espai,3,ES,Barcelona,Casa Batlló,Passeig de Gràcia 43,41.3917,2.1649,09:00-21:00,25,EUR,edificio modernista icónico diseñado por Gaudí
+Espai,4,ES,Barcelona,La Rambla,La Rambla,41.3825,2.1769,00:00-23:59,0,EUR,paseo emblemático lleno de vida y cultura
+Espai,5,ES,Barcelona,Montjuïc,Montjuïc,41.3635,2.1540,00:00-23:59,0,EUR,collina con vistas impresionantes de la ciudad
+Espai,6,ES,Barcelona,Barceloneta Beach,Passeig Marítim,41.3782,2.1927,06:00-22:00,0,EUR,playa popular con ambiente vibrante
+

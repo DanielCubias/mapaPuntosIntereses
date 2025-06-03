@@ -1,0 +1,185 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #c1e4c6;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.contenido {
+    flex: 1;
+    background-color: rgb(235, 178, 178);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#map {
+    flex: 1;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Filtros */
+.filtros {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.filtros div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Resultados */
+.results {
+    min-height: 200px;
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.lista-resultados {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-resultados li {
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-left: 4px solid #ccc;
+}
+
+.item-espai {
+    border-left-color: #4CAF50 !important;
+    background-color: #f1f8e9;
+}
+
+.item-atraccio {
+    border-left-color: #2196F3 !important;
+    background-color: #e3f2fd;
+}
+
+.item-museu {
+    border-left-color: #9C27B0 !important;
+    background-color: #f3e5f5;
+}
+
+.lista-resultados h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.lista-resultados p {
+    margin: 5px 0;
+}
+
+/* Botones y controles */
+.netejarButon {
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.netejarButon:hover {
+    background-color: #d32f2f;
+}
+
+.boton-mapa {
+    padding: 6px 12px;
+    background-color: #1976D2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.boton-mapa:hover {
+    background-color: #1565C0;
+}
+
+#numeroTotal {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Drop zone */
+#drop_zone {
+    border: 2px dashed #bbb;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    margin: 15px 0;
+    background-color: #f9f9f9;
+}
+
+#drop_zone p {
+    margin: 0 0 15px 0;
+    color: #666;
+}
+
+#file-input {
+    margin-bottom: 15px;
+}
+
+#message {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#file-content {
+    display: none; /* Ocultar el contenido del archivo */
+}
+
+/* Foto */
+#foto {
+    display: none;
+    text-align: center;
+}
+
+#foto img {
+    max-width: 100%;
+    height: auto;
+}
+
+#file-input{
+    display: none;
+}
